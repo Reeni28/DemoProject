@@ -6,8 +6,9 @@
       <class name="testscript.LoginTest">
         <methods>
           <include name="beforeMethod"/>
+          <include name="verifyValidUserInvalidPassword"/>
+          <include name="verifyUserLoginWithValidCredentials" invocation-numbers="0 1 2"/>
           <include name="afterMethod"/>
-          <include name="verifyUserLoginWithValidCredentials"/>
         </methods>
       </class> <!-- testscript.LoginTest -->
     </classes>
